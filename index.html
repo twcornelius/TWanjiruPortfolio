@@ -10,12 +10,226 @@
     * {box-sizing: border-box}
     
     /* Set height of body and the document to 100% */
+    
     body, html {
       height: 100%;
       margin: 0;
       font-family: Arial;
-    }
+      background-image: url("/IMG/Freedom.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 90% 90%;}
+
     
+    
+
+	
+    *{
+		margin: 4;
+		padding: 1;
+		border: 1;
+		font-size: 50%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	  .link{
+		display:block;
+	     }
+	
+	.link{
+		line-height:2;
+	}
+	
+	.link{
+		list-style:none ;
+	}
+	
+	.link{
+		quotes: none;
+	 }
+
+	blockquote:before,
+	blockquote:after,
+	q:before,
+	q:after {
+		content: "none";
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 1;
+	}
+	
+	html,
+	body {
+		height: 80%;
+	}
+	
+	body {
+		background-color: white;
+		font-family: sans-serif;
+		display: grid;
+		grid-template-rows: auto;
+		justify-items: left;
+		align-items: left;
+	}
+	
+	
+	h1,
+	h2 {
+		color: #5a1179;
+		font-weight: bold;
+		text-transform: uppercase;
+		transform: matrix(1, -0.25, 0, 1, 0, 0);
+		-ms-transform: matrix(1, -0.25, 0, 1, 0, 0);
+		-webkit-transform: matrix(1, -0.25, 0, 1, 0, 0);
+	}
+	
+	#container:before {
+		content: " ";
+		-webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+		clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+		background-color: rgba(0, 0, 0, 0.085);
+		width: 500px;
+		height: 750px;
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+		animation: scale-up-center 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+	}
+	
+	@keyframes scale-up-center {
+		0% {
+			transform: scale(0.3) matrix(1, -0.25, 0, 1, 0, 0);
+		}
+		100% {
+			transform: scale(1) matrix(1, -0.25, 0, 1, 0, 0);
+		}
+	}
+	
+	h1 {
+		font-size: 2.2em;
+		text-shadow: 5px 5px rgb(54, 1, 43), 8px 8px red(0, 0, 0, 0.25);
+		margin: 0;
+		animation: slide-tr 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+	}
+	
+	@keyframes slide-tr {
+		0% {
+			transform: translateY(35px) translateX(-150px) matrix(1, -0.25, 0, 1, 0, 0);
+		}
+		80% {
+			transform: translateY(0) translateX(0) matrix(1, -0.25, 0, 1, 0, 0);
+		}
+	}
+	
+	h2 {
+		font-size: 1.0em;
+		margin: 0 25px;
+	}
+	
+	h2::before,
+	h2::after {
+		content: "";
+		position: absolute;
+		border-top: 2px solid rgba(0, 0, 0, 0.25);
+	}
+	
+	h2:nth-of-type(2) {
+		font-size: 1.0em;
+		float: right;
+	}
+	
+	h2:nth-of-type(1):before {
+		width: 5%;
+		height: 4px;
+		margin: 3% 0 0 -6%;
+	}
+	
+	h2:nth-of-type(1):after {
+		width: 45%;
+		height: 3px;
+		margin: 3% 0 0 2%;
+	}
+	h2:nth-of-type(2):before {
+		width: 45%;
+		height: 3px;
+		margin: 9% 0 0 -68%;
+	}
+	
+	h2:nth-of-type(2):after {
+		width: 10%;
+		height: 3px;
+		margin: 9% 0 0 2%;
+	}
+	
+	
+	 ::selection {
+		 background: #607D8B;
+	 }
+	
+	.content {
+	  padding: 35px;
+	  margin: 45px 30px;
+	  background: clear;
+	  min-height: 100vh;
+	}
+	
+	.link {
+	  display: block;
+	  text-decoration: none;
+	  color: red;
+	  font: 800 50px Helvetica;
+	  letter-spacing: 5px;
+	  box-shadow: 0 1px 0 0 purple;
+	  width: 13%;
+	  margin-bottom: 30px;
+	}
+	
+	.link:hover {
+	  animation: link 1s 1 forwards;
+	}
+	
+	.link:hover:after {
+	  content: '....';
+	}
+	
+	.link:hover:before {
+	  content: '\00a0';
+	}
+	
+	@keyframes link {
+	  to {
+		box-shadow: 0 3px 0 0 purple;
+		color: yellow;
+		letter-spacing: 15px;
+		width: 28%;
+	  }
+	}
+	
+	.postscript {
+	  position: absolute;
+	  bottom: -75px;
+	  right: 75px;
+	  font: italic 300 18px/14px Helvetica;
+	  color:  red;
+	}
+	
+	.postscript:hover {
+	   animation: postscript 1s 1 forwards;
+	}
+	
+	@keyframes postscript {
+	  to {
+		line-height: 20px;
+	  }
+	}
+	
+
+
     /* Style tab links */
     .tablink {
       background-color: #555;
@@ -56,7 +270,12 @@
     
     <div id="Home" class="tabcontent">
       <h3>Home</h3>
-      <p>Home is where the heart is..</p>
+      <div id="container">
+        <h2>I AM</h2>
+        <h1>Tanika Wanjiru</h1>
+        <h2> Web Developer | CEO of Freedompreneur L.L.C.</h2>
+    </div>
+       
     </div>
     
     <div id="News" class="tabcontent">
@@ -65,7 +284,7 @@
     </div>
     
     <div id="Contact" class="tabcontent">
-      <h3>Contact</h3>
+      <h3 class=>Contact</h3>
       <p>Get in touch, or swing by for a cup of coffee.</p>
     </div>
     
