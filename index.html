@@ -18,21 +18,11 @@
 <button class="tablink" onclick="openPage('Contact', this, 'black')">Contact</button>
 
 <div id="Home" class="tabcontent">
+    <div class="textanime">
+        <p>Tanika Wanjiru, My Ancestor's Wildest Dream!</p>
+        </div>
     <div>
-        <div class="line1">
-          <span>Tanika Wanjiru</span>
-        </div>
-        <div class="line2">
-          <span>I AM</span>
-          <span class="space"></span>
-          <span>MY</span>
-          <span class="space"></span>
-          <span>ANCESTOR'S</span>
-          <span class="space"></span>
-          <span>WILDEST</span>
-          <span class="space"></span>
-          <span>DREAM!</span>
-        </div>
+         
       </div>
 </div>
 
@@ -42,7 +32,7 @@
     <li>Hobbies: Writing, Creating Art, Restoring Funiture, Coding and Designing</li>
     <li>Other Fun Fact About Me: I was born with an extra digit on each pinky</li>
   </ul>  
-  <p>Born and raised in the sunny Miami, Florida.</p>
+  <p>Born and raised in the sunny Miami, Florida. A mother to one 8 year boy and a pet mom to a Goldendoodle, Dallas.</p>
   <div class="sp-container">
     <div class="sp-content">
         <div class="sp-globe"></div>
@@ -62,11 +52,33 @@
   <p>Get in touch, or swing by for a cup of coffee.</p>
 </div>
 
-<div id="Contact" class="tabcontent">
-  <h3>Contact</h3>
-  <p>Who we are and what we do.</p>
-</div>
 
+
+
+<div id="Contact" class="tabcontent">
+  <h3>Get In Touch</h3>
+  <div class="container">
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Your message.." style="height:200px"></textarea>
+  
+      <input type="submit" value="SUBMIT EMAIL TO: twcornelius13@gmail.com" <a href="mailto:twcornelius13@gmail.com">
+    </form>
+  </div>
+    
+ 
 <script src="index.js"></script>
 </body>
 </html> 

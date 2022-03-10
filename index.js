@@ -32,35 +32,4 @@ TweenMax.set([line1Spans, line2Spans], {
 })
 
 
-// Tween values
-var tl = new TimelineMax({
-  repeat: -1
-});
-
-tl.add(
-  TweenMax.to(line1, .75, {
-    x: 0,
-  }),
-  "start"
-)
-
-tl.add(
-  TweenMax.to(line2, .75, {
-    x: 0,
-  }),
-  "start+=0.15"
-)
-
-tl.add(
-  TweenMax.staggerTo(line1Spans, .5, {
-    alpha: 1,
-  }, .05),
-  "start"
-)
-
-tl.add(
-  TweenMax.staggerTo(line2Spans, .5, {
-    alpha: .3,
-  }, .05),
-  "start+=0.15"
-)
+ 
