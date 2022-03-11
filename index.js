@@ -32,4 +32,9 @@ TweenMax.set([line1Spans, line2Spans], {
 })
 
 
- 
+$('nav').hover(function(){
+
+    $('hgroup h1').fadeOut();
+  
+  });
+    
