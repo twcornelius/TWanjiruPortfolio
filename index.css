@@ -337,7 +337,7 @@ nav ul li a:hover {
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 html {
-  height: 100%;
+  height: 400%;
   width: 100%;
   background: url(http://img.wallpaperstock.net:81/blurred-placebo-wallpapers_34011_1920x1080.jpg) no-repeat center;
   background-size: cover;
@@ -446,30 +446,30 @@ html {
 .content-cars {
   position: relative;
   left: 0;
-  height: 150px;
-  width: 300px;
+  height: 300px;
+  width: 400px;
   background: url(IMG/Projecteventdates.png) no-repeat center;
   background-size: cover;
   transition: all 1s;
   z-index: 50;
 }
-
 .content-water {
-  position: relative;
-  top: 0;
-  height: 150px;
-  width: 300px;
-  background: url(IMG/Freedomforproject.png) no-repeat center;
-  background-size: cover;
-  transition: all 1s;
-  z-index: 50;
-}
+	position: relative;
+	top: 0;
+	height: 310px;
+	width: 400px;
+	background: url(IMG/Freedomforproject.png) no-repeat center;
+	background-size: cover;
+	transition: all 1s;
+	z-index: 50;
+  }
+ 
 
 .content-flower {
   position: relative;
   top: 0;
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 300px;
   background: url(IMG/Frontpagedesign.png) no-repeat center;
   background-size: cover;
   transition: all 1s;
@@ -513,7 +513,7 @@ html {
   left: -100px;
 }
 
-.cars:hover .seeallmd, .tatoo:hover .seeallmd{
+.cars:hover .seealllg, .tatoo:hover .seealllg{
   right: 0;
 }
 
@@ -521,15 +521,18 @@ html {
   top: -50px;
 }
 
-.water:hover .seeallsm, .flower:hover .seeallsm {
+.water:hover .seealllg, .flower:hover .seealllg {
   bottom: 0;
 }
 
-.fox:hover .content-fox {
+.fox:hover .content-fox .seealllg{
   top: 100px;
 }
 
-.fox:hover .seealllg {
+.thirdbday:hover .content-third .seealllg {
+	bottom:50px;
+}
+.fox:hover .layout .seealllg {
   top: 0;
 }
 
