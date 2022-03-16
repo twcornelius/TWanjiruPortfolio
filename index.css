@@ -61,18 +61,7 @@ body, html {
       blink-caret .5s step-end infinite;
   }
   
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
   
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange }
-  }
-
 #About {
     background: #750450 url(IMG/Tanika.png) no-repeat center center fixed; 
 	-webkit-background-size: 75%;
@@ -345,16 +334,196 @@ nav ul li a:hover {
 	
 }
 
-/* Header Styles */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
-hgroup {
-  font: 1.6em Helvetica, sans-serif;
-  position: absolute;
-  left: 55%;
-  top:22%;
-  z-index:0;
-  opacity: 1.;
+html {
+  height: 100%;
+  width: 100%;
+  background: url(http://img.wallpaperstock.net:81/blurred-placebo-wallpapers_34011_1920x1080.jpg) no-repeat center;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
 }
+
+.metro {
+  width: 880px;
+  margin: 0 auto;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.sm {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background: #111;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.md {
+  position: relative;
+  width: 300px;
+  height: 150px;
+  background: #111;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.lg {
+  position: relative;
+  width: 400px;
+  height: 310px;
+  background: #111;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.seeallmd {
+  width: 100px;
+  height: 150px;
+  background: #fff;
+  position: absolute;
+  right: -100px;
+  transition: all 1s;
+  z-index: 100;
+}
+
+.seeallmd h1 {
+  font-size: 6em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.seeallsm {
+  width: 150px;
+  height: 50px;
+  background: #fff;
+  position: absolute;
+  bottom: -50px;
+  transition: all 1s;
+  z-index: 100;
+}
+
+.seeallsm h1 {
+  font-size: 3em;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.seealllg {
+  width: 400px;
+  height: 100px;
+  background: #fff;
+  position: absolute;
+  top: -100px;
+  transition: all 1s;
+  z-index: 100;
+}
+
+.seealllg h1 {
+  font-size: 6em;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.content-tatoo {
+  position: relative;
+  left: 0;
+  height: 150px;
+  width: 300px;
+  background: url(http://hqscreen.com/wallpapers/m/53/tattoos_men_fingers_blurred_background_m52522.jpg) no-repeat center;
+  background-size: cover;
+  transition: all 1s;
+  z-index: 50;
+}
+
+.content-cars {
+  position: relative;
+  left: 0;
+  height: 150px;
+  width: 300px;
+  background: url(http://hqdesktop.net/wallpapers/m/13/children_macro_desks_izh_moskvich_blurred_background_m12855.jpg) no-repeat center;
+  background-size: cover;
+  transition: all 1s;
+  z-index: 50;
+}
+
+.content-water {
+  position: relative;
+  top: 0;
+  height: 150px;
+  width: 150px;
+  background: url(http://hqscreen.com/wallpapers/m/11/water_dark_waves_macro_blurred_background_sea_m10417.jpg) no-repeat center;
+  background-size: cover;
+  transition: all 1s;
+  z-index: 50;
+}
+
+.content-flower {
+  position: relative;
+  top: 0;
+  height: 150px;
+  width: 150px;
+  background: url(http://best-wallpaper.net/wallpaper/s/1209/Chamomile-close-up-blurred-background_s.jpg) no-repeat center;
+  background-size: cover;
+  transition: all 1s;
+  z-index: 50;
+}
+
+.content-fox {
+  position: relative;
+  top: 0;
+  height: 310px;
+  width: 400px;
+  background: url(http://hqscreen.com/wallpapers/m/67/animals_blurred_background_foxes_snow_m66899.jpg) no-repeat center;
+  background-size: cover;
+  transition: all 1s;
+  z-index: 50;
+}
+
+
+.cars:hover .content-cars, .tatoo:hover .content-tatoo {
+  left: -100px;
+}
+
+.cars:hover .seeallmd, .tatoo:hover .seeallmd{
+  right: 0;
+}
+
+.water:hover .content-water, .flower:hover .content-flower {
+  top: -50px;
+}
+
+.water:hover .seeallsm, .flower:hover .seeallsm {
+  bottom: 0;
+}
+
+.fox:hover .content-fox {
+  top: 100px;
+}
+
+.fox:hover .seealllg {
+  top: 0;
+}
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
 
 #container {
   
@@ -443,6 +612,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
       }
 
 
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+
+
+
+
+
+
 	  @-webkit-keyframes blurFadeIn {
 		0% {
 			opacity: 0;
@@ -492,7 +678,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 			text-shadow: 0px 0px 40px #fff;
 			-moz-transform: scale(1.3);
 		}
-		20%, 75% {
+		20%, 65% {
 			opacity: 1;
 			text-shadow: 0px 0px 1px #fff;
 			-moz-transform: scale(1);
