@@ -437,7 +437,7 @@ html {
   left: 0;
   height: 150px;
   width: 300px;
-  background: url(http://hqscreen.com/wallpapers/m/53/tattoos_men_fingers_blurred_background_m52522.jpg) no-repeat center;
+  background: url(IMG/baby\ adoption.png) no-repeat center;
   background-size: cover;
   transition: all 1s;
   z-index: 50;
@@ -448,7 +448,7 @@ html {
   left: 0;
   height: 150px;
   width: 300px;
-  background: url(http://hqdesktop.net/wallpapers/m/13/children_macro_desks_izh_moskvich_blurred_background_m12855.jpg) no-repeat center;
+  background: url(IMG/Projecteventdates.png) no-repeat center;
   background-size: cover;
   transition: all 1s;
   z-index: 50;
@@ -458,8 +458,8 @@ html {
   position: relative;
   top: 0;
   height: 150px;
-  width: 150px;
-  background: url(http://hqscreen.com/wallpapers/m/11/water_dark_waves_macro_blurred_background_sea_m10417.jpg) no-repeat center;
+  width: 300px;
+  background: url(IMG/Freedomforproject.png) no-repeat center;
   background-size: cover;
   transition: all 1s;
   z-index: 50;
@@ -470,7 +470,7 @@ html {
   top: 0;
   height: 150px;
   width: 150px;
-  background: url(http://best-wallpaper.net/wallpaper/s/1209/Chamomile-close-up-blurred-background_s.jpg) no-repeat center;
+  background: url(IMG/Frontpagedesign.png) no-repeat center;
   background-size: cover;
   transition: all 1s;
   z-index: 50;
@@ -481,12 +481,33 @@ html {
   top: 0;
   height: 310px;
   width: 400px;
-  background: url(http://hqscreen.com/wallpapers/m/67/animals_blurred_background_foxes_snow_m66899.jpg) no-repeat center;
+  background: url(IMG/eightbirthday.jpg) no-repeat center;
   background-size: cover;
   transition: all 1s;
   z-index: 50;
 }
 
+.content-layout {
+  position: relative;
+  top: 0;
+  height: 310px;
+  width: 400px;
+  background: url(IMG/Photolayout.png) no-repeat center;
+  background-size: cover;
+  transition: all 1s;
+  z-index: 50;
+}
+
+.content-third {
+	position: relative;
+	top: 0;
+	height: 310px;
+	width: 400px;
+	background: url(IMG/Third\ birthday.png) no-repeat center;
+	background-size: cover;
+	transition: all 1s;
+	z-index: 50;
+}
 
 .cars:hover .content-cars, .tatoo:hover .content-tatoo {
   left: -100px;
@@ -785,3 +806,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 			transform: scale(1) rotate(0deg);
 		}
 	}
+ 
