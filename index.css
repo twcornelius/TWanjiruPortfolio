@@ -253,6 +253,8 @@ h1.main, p.demos {
         resize: vertical;
       }
       
+	 
+
       input[type=submit] {
         background-color: purple;
         color: white;
@@ -265,6 +267,7 @@ h1.main, p.demos {
       input[type=submit]:hover {
         background-color: purple;
       }
+	  
       .container2 {
 		width: 50%;
 		position: center;
@@ -273,8 +276,12 @@ h1.main, p.demos {
         background-color: #f50303;
         padding: 20px;
       }
+	  .h3new {color:yellow;
+		text-align: center;
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-
+	  }
+	 
 /* The typing effect */
 @keyframes typing {
     from { width: 0 }
