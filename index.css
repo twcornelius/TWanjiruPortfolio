@@ -249,14 +249,14 @@ h1.main, p.demos {
         border-radius: 2px;
         box-sizing: border-box;
         margin-top: 6px;
-        margin-bottom: 16px;
+        margin-bottom: 10px;
         resize: vertical;
       }
       
 	 
 
       input[type=submit] {
-        background-color: purple;
+        background-color: red;
         color: white;
         padding: 12px 20px;
         border: none;
@@ -265,7 +265,7 @@ h1.main, p.demos {
       }
       
       input[type=submit]:hover {
-        background-color: purple;
+        background-color: yellow;
       }
 	  
       .container2 {
@@ -273,14 +273,16 @@ h1.main, p.demos {
 		position: center;
 		overflow: hidden;
         border-radius: 5px;
-        background-color: #f50303;
+        background-color: #6d0349;
         padding: 20px;
       }
-	  .h3new {color:yellow;
+	  .h3new {color:#f50303;
 		text-align: center;
 		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 	  }
+	  .floatRight{float:right;margin-left:20px}
+	  .floatLeft{float:left;margin-left:20px}
 	 
 /* The typing effect */
 @keyframes typing {
