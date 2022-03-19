@@ -53,4 +53,6 @@ $('nav').hover(function(){
   
   });
     
-   
+  function closePopup() {
+    window.close();
+  }
