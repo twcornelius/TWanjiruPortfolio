@@ -224,6 +224,7 @@ h1.main, p.demos {
 
  
 #Skills {background-color: purple;
+	background-size: cover;
 }
 .h3s  {text-align: center;
 	text-shadow: #f50303;
@@ -233,8 +234,8 @@ h1.main, p.demos {
 	width: 100%;
 	background:url(http://s6.favim.com/orig/150112/background-cold-gif-nature-Favim.com-2380226.gif);
 	/*https://i0.wp.com/media.giphy.com/media/5ERaOy5fQEIAU/giphy.gif*/
-	background-size: cover;
-	font-size: 50px;
+	background-size: 30%;
+	font-size: 20px;
 	color: #fff;
 	text-align: center;
 	padding: 40px 15px;

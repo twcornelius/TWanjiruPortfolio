@@ -51,20 +51,11 @@ header img {
 	transition: all 1s; 
 }
 
+ p{
+   font-weight: bolder;
+   font-size: 70%;
+ }
 
-/* Media query for correct nav display */
-
-@media all and (max-width: 768px) {
-.flex--nav {
-	display: inline-block;
-}
-}
-
-@media all and (max-device-width: 1024px) {
-.flex--nav__element {
-	font-size: 1.0rem;
-}
-}
 
 /* Align Classes */
 
@@ -141,6 +132,20 @@ header img {
   font-weight: bolder;
   color: #fff;
 }
+
+
+@media all and (max-width: 768px) {
+  .flex--nav {
+    display: inline-block;
+  }
+  }
+  
+  @media all and (max-device-width: 1024px) {
+  .flex--nav__element {
+    font-size: 1.0rem;
+  }
+  }
+
 
 @media (max-width: 768px) {
   .card-columns {
