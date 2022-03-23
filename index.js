@@ -53,8 +53,4 @@ $('nav').hover(function(){
   
   });
     
-  $(function() {
-    $('#close').click(function() {
-        $('#float_bottom_left').remove();
-    });
-});
+  

@@ -318,7 +318,7 @@ h1.main, p.demos {
 	  .social ul li {
 		display: block;
 		margin: 5px;
-		background: rgba(0, 0, 0, 0.36);
+		background: #ddec01fa;
 		width: 300px;
 		text-align: right;
 		padding: 10px;
@@ -344,7 +344,7 @@ h1.main, p.demos {
 	  }
 	  .social ul li:hover i {
 		color: rgb(8, 148, 212);
-		background: rgba(0, 0, 0, 0.36);
+		background: rgba(53, 7, 39, 0.36);
 		-webkit-transform: rotate(360deg);
 		-moz-transform: rotate(360deg);
 		-ms-transform: rotate(360deg);
@@ -359,7 +359,7 @@ h1.main, p.demos {
 	  .social ul li i {
 		margin-left: 10px;
 		color: rgb(241, 20, 20);
-		background: #fff;
+		background: #fdec02;
 		padding: 10px;
 		-webkit-border-radius: 50%;
 		-moz-border-radius: 50%;
