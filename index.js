@@ -1,5 +1,7 @@
 
 //home page JS
+
+
 function openPage(pageName,elmnt,color) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -12,8 +14,10 @@ function openPage(pageName,elmnt,color) {
   }
   document.getElementById(pageName).style.display = "block";
   elmnt.style.backgroundColor = color;
-
 }
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
 
 
 function myFunction(imgs) {
@@ -29,8 +33,7 @@ function myFunction(imgs) {
   expandImg.parentElement.style.display = "block";
 }
 
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
+
 
 var line1 = $('.line1');
 var line2 = $('.line2');
