@@ -217,6 +217,7 @@ h1.main, p.demos {
 .sp-circle-link:hover {
 	background: #85373b;
 	color: #fff;
+	
 }
 
  
@@ -225,9 +226,20 @@ h1.main, p.demos {
  
 #Skills {background-color: rgb(8, 8, 8);
 	background-size: cover;
-}
+	}
   
+h3  { text-align: center;
+	  text-shadow: #f50303;
+	  font-size: larger;
+	  font-weight: bolder;
 
+}
+h4 { text-align: center;
+	text-shadow: #f50303;
+	font-size: larger;
+	font-weight: bolder;
+	
+}
  
 
 .slide-container{	
@@ -286,7 +298,7 @@ h1.main, p.demos {
 	  .social ul li {
 		display: block;
 		margin: 5px;
-		background: #ddec01fa;
+		background: #cccf9cfa;
 		width: 300px;
 		text-align: right;
 		padding: 10px;
@@ -305,7 +317,7 @@ h1.main, p.demos {
 		-ms-transform: translate(110px, 0);
 		-o-transform: translate(110px, 0);
 		transform: translate(110px, 0);
-		background: rgba(255, 255, 255, 0.4);
+		background: rgba(248, 232, 2, 0.918);
 	  }
 	  .social ul li:hover a {
 		color: rgb(221, 7, 7);
