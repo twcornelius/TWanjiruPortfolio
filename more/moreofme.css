@@ -133,6 +133,11 @@ header img {
   color: #fff;
 }
 
+#close {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
 
 @media all and (max-width: 768px) {
   .flex--nav {
