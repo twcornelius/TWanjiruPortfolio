@@ -133,27 +133,14 @@ header img {
   color: #fff;
 }
 
-.popup{
-  width: 900px;
-  margin: auto;
-  text-align: center
-}
+ 
 .popup img{
   width: 200px;
   height: 200px;
   cursor: pointer
 }
  
-.img-show{
-  width: 600px;
-  height: 400px;
-  background: #FFF;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  overflow: hidden
-}
+
  
 
 
